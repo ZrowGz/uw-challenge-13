@@ -1,0 +1,90 @@
+(py38) zrowgz@x86_64-apple-darwin13 fintech-workspace % cd w13
+(py38) zrowgz@x86_64-apple-darwin13 w13 % cd uw-challenge-13 
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git status
+On branch main
+Your branch is up to date with 'uw-challenge-13/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    GC_venture_funding_with_deep_learning.ipynb
+	modified:   venture_funding_with_deep_learning.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git add .
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git commit -m "cleanup and begin"
+[main 81eaa73] cleanup and begin
+ 2 files changed, 372 insertions(+), 1080 deletions(-)
+ delete mode 100644 GC_venture_funding_with_deep_learning.ipynb
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git push
+Enter passphrase for key '/Users/zrowgz/.ssh/id_rsa': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.50 KiB | 1.25 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:ZrowGz/uw-challenge-13.git
+   ee873d3..81eaa73  main -> main
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git status
+On branch main
+Your branch is up to date with 'uw-challenge-13/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   venture_funding_with_deep_learning.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Resources/AlphabetSoup.h5
+	Resources/AlternateSoup.h5
+	Resources/AlternateSoupTwo.h5
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git add .
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git commit -m "Code complete"
+[main 7bb8113] Code complete
+ 4 files changed, 1575 insertions(+), 129 deletions(-)
+ create mode 100644 Resources/AlphabetSoup.h5
+ create mode 100644 Resources/AlternateSoup.h5
+ create mode 100644 Resources/AlternateSoupTwo.h5
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git push 
+Enter passphrase for key '/Users/zrowgz/.ssh/id_rsa': 
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 321.62 KiB | 6.43 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To github.com:ZrowGz/uw-challenge-13.git
+   81eaa73..7bb8113  main -> main
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git status 
+On branch main
+Your branch is up to date with 'uw-challenge-13/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git add .
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git commit -m "update readme"
+[main 1b60ca3] update readme
+ 1 file changed, 22 insertions(+), 1 deletion(-)
+ rewrite README.md (100%)
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 % git push
+Enter passphrase for key '/Users/zrowgz/.ssh/id_rsa': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 615 bytes | 615.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:ZrowGz/uw-challenge-13.git
+   7bb8113..1b60ca3  main -> main
+(py38) zrowgz@x86_64-apple-darwin13 uw-challenge-13 %
